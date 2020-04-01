@@ -1,14 +1,40 @@
 <!DOCTYPE html>
-
+<html lang="pt-BR">
 <head>
-    <title>O Enigma de Julio Cesar</title>
+    <link rel= "stylesheet" type= "text/css" href='./css/main.css'>
+    <meta charset="UTF-8">
+    <title>O Inicio</title>
     <style>
         body {
-            background-color: black;
+            background-color:black;
+            color:white;
+        }
+        h1 {
+            color:white
+            
         }
     </style>
 </head>
 
 <body>
-
+    <div class='a'>
+    <h1 style="font-size:xx-large;">Você me lê?</h1>
+    </div>
+    <div class="resposta">
+    <button onclick="botao()">Responda</button>
+    </div>
+    <script>
+        function botao() {
+            var x;
+            var talvez=prompt("Digite a resposta")
+            if (talvez==="oi") {
+                window.location.replace('file:///C:/Users/admsenai/Desktop/desenvolvimento%20web/negocios/enigma2.html')
+            }
+            else {
+                alert("RESPOSTA ERRADA")
+            }
+        }
+    </script>
 </body>
+</link>
+</html>
