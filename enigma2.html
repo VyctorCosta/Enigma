@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <title>Rolinha</title>
+</head>
+
+<body>
+    <header class="menu">
+        <div class="logo">
+            <img src="img/logo.png" />
+        </div>
+    </header>
+    <div class="dica1">
+        <img src="img/dica.png" />
+    </div>
+    <div class="resposta">
+        <script>
+            var capturando = document.getElementById("valor");
+            function capturar() {
+                capturando = document.getElementById("valor")
+            }
+        </script>
+        <input placeholder= "Digite sua resposta" type="text" id="valor"> 
+        <input type="submit" onclick="capturar()" value="Enviar">
+        <script>
+            if(capturando == "te amo") {
+                alert('Fudeu');
+            } 
+        </script>>
+    </div>
+
+</body>
+</html>
