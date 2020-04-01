@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
     <link rel= "stylesheet" type= "text/css" href='./css/main.css'>
+    <script type="text/javascript" src="./js/main.js"></script>
     <meta charset="UTF-8">
     <title>O Inicio</title>
     <style>
@@ -18,23 +19,11 @@
 
 <body>
     <div class='a'>
-    <h1 style="font-size:xx-large;">Você me lê?</h1>
+        <h1 style="font-size:xx-large;">Você me lê?</h1>
     </div>
     <div class="resposta">
-    <button onclick="botao()">Responda</button>
+        <button onclick="botao()">Responda</button>
     </div>
-    <script>
-        function botao() {
-            var x;
-            var talvez=prompt("Digite a resposta")
-            if (talvez==="cesar") {
-                window.location.replace('enigma2.html','pagename','resizable,height=260,width=370')
-            }
-            else {
-                alert("RESPOSTA ERRADA")
-            }
-        }
-    </script>
 </body>
 </link>
 </html>
