@@ -1,34 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <title>Rolinha</title>
+    <link rel= "stylesheet" type= "text/css" href='./css/main.css'>
+    <meta charset="UTF-8">
+    <title>Verdade</title>
+    <style>
+        body {
+            background-color:black;
+            color:white;
+        }
+        h1 {
+            color:white
+            
+        }
+    </style>
 </head>
 
 <body>
-    <header class="menu">
-        <div class="logo">
-            <img src="img/logo.png" />
-        </div>
-    </header>
-    <div class="dica1">
-        <img src="img/dica.png" />
+    <div class='a'>
+    <h1 style="font-size:xx-large;">E aqui começamos...</h1>
     </div>
     <div class="resposta">
-        <script>
-            var capturando = document.getElementById("valor");
-            function capturar() {
-                capturando = document.getElementById("valor")
-            }
-        </script>
-        <input placeholder= "Digite sua resposta" type="text" id="valor"> 
-        <input type="submit" onclick="capturar()" value="Enviar">
-        <script>
-            if(capturando == "te amo") {
-                alert('Fudeu');
-            } 
-        </script>>
+    <button onclick="botao()">Responda</button>
     </div>
-
+    <script>
+        function botao() {
+            var x;
+            var talvez=prompt("Digite a resposta")
+            if (talvez==="cesar") {
+                window.location.replace('index.html','pagename','resizable,height=260,width=370')
+            }
+            else {
+                alert("RESPOSTA ERRADA")
+            }
+        }
+    </script>
 </body>
+</link>
 </html>
