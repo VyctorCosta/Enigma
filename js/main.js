@@ -67,7 +67,7 @@ function gsd1() {
 
 function dinwu2() {
     var rolinhas=prompt("")
-    if (rolinhas==="senatus sopulusque romanus") {
+    if (rolinhas==="senatus populusque romanus") {
         window.location.replace('tabela.html','pagename','resizable,height=260,width=370')
     }
     else {
